@@ -1,4 +1,4 @@
-﻿namespace FAF.ReplayParser.Core.Models.ReplayContent
+﻿namespace FAF.ReplayParser.Core.Models.RawReplay
 {
     public class RawReplayHeader
     {

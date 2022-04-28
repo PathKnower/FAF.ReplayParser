@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAF.ReplayParser.Core", "PathKnower.FAF.Replay.Parser.Common\FAF.ReplayParser.Core.csproj", "{99F6EBAF-F56C-4F1F-A70C-562192EAA0AC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7BAD073C-897E-4EF2-A19F-5EA98C10DD04}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parser", "Parser", "{7BAD073C-897E-4EF2-A19F-5EA98C10DD04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAF.ReplayParser.Core", "src\FAF.ReplayParser.Core\FAF.ReplayParser.Core.csproj", "{186C676C-F7A3-4573-887E-5A6A0E2DF285}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{99F6EBAF-F56C-4F1F-A70C-562192EAA0AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99F6EBAF-F56C-4F1F-A70C-562192EAA0AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99F6EBAF-F56C-4F1F-A70C-562192EAA0AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99F6EBAF-F56C-4F1F-A70C-562192EAA0AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186C676C-F7A3-4573-887E-5A6A0E2DF285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186C676C-F7A3-4573-887E-5A6A0E2DF285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186C676C-F7A3-4573-887E-5A6A0E2DF285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186C676C-F7A3-4573-887E-5A6A0E2DF285}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{99F6EBAF-F56C-4F1F-A70C-562192EAA0AC} = {7BAD073C-897E-4EF2-A19F-5EA98C10DD04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CEC09EFD-4D21-4325-9904-E6783B646315}
