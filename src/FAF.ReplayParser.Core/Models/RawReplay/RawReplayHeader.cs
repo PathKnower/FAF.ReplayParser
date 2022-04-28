@@ -1,6 +1,6 @@
 ﻿namespace FAF.ReplayParser.Core.Models.RawReplay
 {
-    public class RawReplayHeader
+    internal class RawReplayHeader
     {
         public long uid { get; set; }
         public bool complete { get; set; }
